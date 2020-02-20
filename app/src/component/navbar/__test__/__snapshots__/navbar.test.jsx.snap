@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches snapshot of NavBar component 1`] = `
+<nav
+  className="navbar navbar-expand-lg navbar-light bg-light"
+  data-testid="navigation"
+>
+  <a
+    className="navbar-brand"
+    data-testid="brandName"
+    href="/"
+    onClick={[Function]}
+  >
+    shootsta
+  </a>
+  <button
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+    className="navbar-toggler navbar-toggler-right collapsed"
+    data-target="#navbarNav"
+    data-toggle="collapse"
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      className="navbar-toggler-icon"
+    />
+  </button>
+  <div
+    className="collapse navbar-collapse"
+    id="navbarNav"
+  >
+    <ul
+      className="navbar-nav"
+    >
+      <li
+        className="nav-item"
+      >
+        <a
+          aria-current="page"
+          className="nav-link active"
+          href="/"
+          onClick={[Function]}
+          style={
+            Object {
+              "color": "#27baa1",
+            }
+          }
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className="nav-item"
+      >
+        <a
+          aria-current={null}
+          className="nav-link"
+          href="/upload"
+          onClick={[Function]}
+        >
+          Upload
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;

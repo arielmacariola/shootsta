@@ -1,0 +1,50 @@
+body {
+  color: #333333;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #27baa1;
+}
+.form-box {
+  max-width: 500px;
+  border: 2px solid #ececec;
+  padding: 20px;
+  margin: 30px auto;
+}
+.bg-light {
+  background-color: #f8f9fa !important;
+  background: linear-gradient(125deg, #1d439b, #27baa1);
+}
+.btn-primary {
+  background: linear-gradient(125deg, #1d439b, #27baa1);
+  line-height: 25px;
+  font-weight: 500;
+  border: none;
+}
+.form-group label {
+  font-size: 20px;
+}
+.page-title {
+  text-align: center;
+  margin: 30px;
+}
+.alert-no-video {
+  text-align: center;
+  margin: 30px auto;
+}
+.content {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pagination {
+  margin: 15px 0;
+}
