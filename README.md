@@ -1,6 +1,8 @@
 # SHOOTSTA - SIMPLE VIDEO LIBRARY APP
-This is a small web stack app built with api server (nodejs/express) and simple app (reactJS).<br>
-It allows users to upload videos and view the list in the video library page.
+- This is a small web stack app built with api server (nodejs/express) and simple app (reactJS).<br>
+- It allows users to upload videos and view the list in the video library page.
+- The video library page has pagination feature with 5 videos per page.
+- Simple unit testing using Jest/React-testing-library is implemented in NavBar component
 
 # How to run
 <b>In your terminal</b>
